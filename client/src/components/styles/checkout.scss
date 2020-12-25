@@ -1,0 +1,60 @@
+@import "../../../colorScheme.scss";
+.checkout {
+  display: flex;
+  flex-direction: column;
+}
+.container_override {
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 55vh;
+  background-color: $whites;
+  padding: 30px;
+  border: 1px solid $color-border;
+  overflow: scroll;
+  scrollbar-width: none; /* Firefox */
+  margin-right: 20px;
+  margin-left: 0px;
+  margin-top: 3px;
+  margin-bottom: 1px;
+}
+.checkout_button {
+  margin-right: 20px;
+  margin-left: 0px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  border-radius: 20px;
+  border: transparent;
+  background-color: $checkout-btn;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.checkout_button:hover {
+  margin-right: 20px;
+  margin-left: 0px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  border-radius: 20px;
+  border: transparent;
+  background-color: $checkout-btn;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+.checkout__title {
+  font-size: 25px;
+  letter-spacing: 0.1em;
+  text-shadow: 1px 1px $blacks, 2px 2px $whites;
+  margin-top: 46px;
+  margin-bottom: 0px;
+  margin-left: 15px;
+}
+.checkout__cartempty {
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  color: gray;
+  margin: auto;
+  justify-content: center;
+}

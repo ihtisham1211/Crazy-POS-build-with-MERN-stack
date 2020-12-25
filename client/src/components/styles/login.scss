@@ -1,0 +1,54 @@
+@import "../../../colorScheme.scss";
+.login {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__title {
+  font-size: 50px;
+  letter-spacing: 0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: $color-border;
+  text-shadow: 1px 1px $whites, 3px 3px $blacks;
+  margin-top: 20vh;
+}
+.login__subtitle {
+  color: $blacks;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 32px;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+.login_tfield {
+  background-color: $whites;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid $color-border;
+}
+.login__button {
+  border-radius: 20px;
+  font-family: "Helvetica Neue", sans-serif;
+  border: 1px solid $color-border;
+  background-color: $color-main;
+  color: $blacks;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  margin: 5px 0 20px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+  width: auto;
+}
+.login__button:hover {
+  background-color: $color-light;
+}

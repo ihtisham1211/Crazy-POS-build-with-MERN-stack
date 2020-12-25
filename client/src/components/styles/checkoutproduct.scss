@@ -1,0 +1,20 @@
+@import "../../../colorScheme.scss";
+.checkoutproduct {
+  display: flex;
+  margin: 1px;
+}
+.min_button {
+  border: none;
+  font-size: 20px;
+  background-color: none;
+  color: #cc4c43;
+}
+
+.min_button:hover {
+  background-color: $color-light;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+}

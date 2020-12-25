@@ -1,0 +1,70 @@
+@import "../../../colorScheme.scss";
+.container {
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 62vh;
+  background-color: $whites;
+  padding: 30px;
+  margin: 40px;
+  margin-top: 10px;
+  margin-left: 20px;
+  border: 1px solid $color-border;
+  overflow: scroll;
+  scrollbar-width: none; /* Firefox */
+}
+.product_textfd {
+  margin: 40px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 20px;
+  border: 0;
+  border-bottom: 1px solid$color-border;
+  background: transparent;
+  width: 90%;
+  padding: 8px 0px 5px 10px;
+  font-size: 16px;
+  color: $blacks;
+  border-radius: 20px;
+}
+.s_constain {
+  display: flex;
+}
+.search {
+  background-color: transparent;
+  border: none;
+  font-size: 22px;
+  margin: auto;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+.productslist {
+  align-content: center;
+}
+.search:hover {
+  font-size: 24px;
+}
+
+.lds-dual-ring {
+  display: flex;
+  margin: auto;
+}
+.lds-dual-ring:after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid $color-border;
+  border-color: $color-border transparent $color-border transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

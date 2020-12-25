@@ -1,0 +1,71 @@
+@import "../../../colorScheme.scss";
+.product {
+  flex: 1;
+  display: flex;
+  margin: 2px;
+  flex-wrap: wrap;
+}
+
+img {
+  height: 20.92vh;
+  margin: 1.3vh;
+}
+h3 {
+  text-align: left;
+  margin: 1.3vh;
+  margin-bottom: 0.69vh;
+  color: $blacks;
+}
+h5 {
+  font-weight: normal;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: $blacks;
+}
+.update_button {
+  border: none;
+  font-size: 20px;
+  background-color: none;
+  color: #43cc81;
+}
+
+.delete_button {
+  border: none;
+  font-size: 20px;
+  background-color: none;
+  color: #cc4c43;
+}
+.add_button {
+  border: none;
+  font-size: 20px;
+  background-color: none;
+  color: #111;
+}
+.delete_button:hover {
+  background-color: $color-light;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+}
+
+.update_button:hover {
+  background-color: $color-light;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+}
+
+.add_button:hover {
+  background-color: $color-light;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+}

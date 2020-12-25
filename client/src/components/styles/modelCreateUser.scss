@@ -1,0 +1,55 @@
+@import "../../../colorScheme.scss";
+.ModelCreateUser {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: $whites;
+  padding: 50px;
+
+  border-radius: 20px;
+}
+.Overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal_tfield {
+  background-color: $whites;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid $color-border;
+}
+.modal_btn {
+  background-color: $whites;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  margin-right: 100%;
+  border-radius: 20px;
+  border: 1px solid $color-border;
+}
+.modal__button {
+  text-align: center;
+  border-radius: 20px;
+  font-family: "Helvetica Neue", sans-serif;
+  border: 1px solid $color-border;
+  background-color: $color-main;
+  color: $blacks;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  margin: 5px 0 20px 5px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+}
+.modal__button:hover {
+  background-color: $color-light;
+}

@@ -1,0 +1,49 @@
+@import "../../../colorScheme.scss";
+.header {
+  display: flex;
+  height: 12vh;
+}
+.header_admin_div {
+  display: flex;
+}
+.header__title {
+  font-size: 35px;
+  letter-spacing: 0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: $color-border;
+  text-shadow: 1px 1px $whites, 3px 3px $blacks;
+  margin-right: 15px;
+  margin-left: 20px;
+  text-align: center;
+}
+.header__subtitle {
+  font-size: 25px;
+  letter-spacing: 0.1em;
+  text-shadow: 3px 3px $whites;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 37px;
+  text-align: center;
+
+  text-decoration: underline overline;
+  text-transform: uppercase;
+}
+
+.header__button {
+  border-radius: 20px;
+  font-family: "Helvetica Neue", sans-serif;
+  border: 1px solid $color-border;
+  background-color: $color-main;
+  color: $blacks;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+  margin-right: 20px;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+.header__button:hover {
+  background-color: $color-light;
+}

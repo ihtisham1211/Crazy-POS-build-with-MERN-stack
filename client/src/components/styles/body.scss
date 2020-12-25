@@ -1,0 +1,12 @@
+@import "../../../colorScheme.scss";
+.bodyc {
+  display: flex;
+}
+.productslist {
+  box-sizing: border-box;
+  width: 75%;
+}
+.checkout {
+  box-sizing: border-box;
+  width: 25%;
+}

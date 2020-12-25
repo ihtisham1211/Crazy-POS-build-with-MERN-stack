@@ -1,0 +1,19 @@
+@import "../../../colorScheme.scss";
+.alert {
+  display: flex;
+  align-content: center;
+  padding: 20px;
+  color: $whites;
+  border-radius: 20px;
+  width: 20%;
+  margin: auto;
+}
+
+.alert-danger {
+  background-color: #cc4c43;
+  color: $whites;
+}
+.alert-success {
+  background-color: #43cc81;
+  color: $whites;
+}
