@@ -20,10 +20,12 @@
   },
   "devDependencies": {},
    "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "client-install": "npm install --prefix client",
     "start": "node server.js",
-    "dev": "nodemon server.js",
-    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "server": "nodemon server.js --exec babel-node --presets babel-preset-env",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "author": "ihtisham",
   "license": "ISC"
