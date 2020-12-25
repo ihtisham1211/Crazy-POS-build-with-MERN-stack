@@ -21,7 +21,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently \"node server.js\" \"cd client && npm install -g serve && serve -s build\"",
+    "start": "concurrently \"node server.js\" \"cd client && npm i && npm start\"",
     "dev": "nodemon server.js"
   },
   "author": "ihtisham",
