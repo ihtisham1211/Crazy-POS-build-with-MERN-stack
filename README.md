@@ -2,6 +2,10 @@
 
 A POS system build on MERN stack with admin and employee panel.
 
+
+![](https://imgur.com/QXzKTOo)
+
+
 # Front-end build:
 The front-end is built using SCSS.
 Redux used for state management.
