@@ -3,8 +3,7 @@
 A POS system build on MERN stack with admin and employee panel.
 
 
-![](https://imgur.com/QXzKTOo)
-
+![Imgur](https://i.imgur.com/QXzKTOo.gif)
 
 # Front-end build:
 The front-end is built using SCSS.
