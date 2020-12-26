@@ -13,7 +13,7 @@ const Header = ({ logout, usertype, user }) => {
   return (
     <div className="header">
       <h2 className="header__title">Crazy POS </h2>
-      <h1 className="header__subtitle">Manage your sales {user}!</h1>
+      <h1 className="header__subtitle">Manage your sales !</h1>
       {usertype === "admin" && (
         <div className="header_admin_div">
           <button
