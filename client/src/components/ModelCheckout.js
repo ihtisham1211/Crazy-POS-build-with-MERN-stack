@@ -11,7 +11,6 @@ const ModelCheckout = ({
   open,
   onClose,
   checkoutList,
-  name,
   catchProduct,
   checkoutcart,
 }) => {
@@ -59,7 +58,7 @@ const ModelCheckout = ({
             <u>Total: </u> {total}$
           </h4>
         </div>
-        <h5 className="c_created">Bill created by {name}</h5>
+        <h5 className="c_created">Bill created by Crazy POS</h5>
         <ReactToPrint
           trigger={() => <button className="c_btn">Print</button>}
           content={() => modalRef.current}
@@ -72,12 +71,10 @@ const ModelCheckout = ({
 ModelCheckout.propTypes = {
   checkoutcart: PropTypes.func.isRequired,
   catchProduct: PropTypes.func.isRequired,
-  name: PropTypes.string.isRequired,
 };
 
 const mapStateToProps = (state) => ({
   checkoutList: state.checkout.checkoutList,
-  name: state.auth.user.name,
 });
 
 export default connect(mapStateToProps, { checkoutcart, catchProduct })(
