@@ -59,11 +59,9 @@ const Header = ({ logout, usertype, user }) => {
 Header.propTypes = {
   logout: PropTypes.func.isRequired,
   usertype: PropTypes.string,
-  user: PropTypes.string,
 };
 const mapStateToProps = (state) => ({
   usertype: state.auth.usertype,
-  user: state.auth.user.name,
 });
 
 export default connect(mapStateToProps, { logout })(Header);
